@@ -9,7 +9,7 @@ A Magisk module that allows KDE Connect to automatically sync the Android clipbo
 ### Install (adb shell)
 
 ```
-su -c 'cd /sdcard/Download; \
-  curl -fLO https://github.com/draumaz/kdeconnectbidirectionalclipboard/releases/download/1/kdeconnectbidirectionalclipboard-v1.zip; \
-  magisk --install-module kdeconnectbidirectionalclipboard-v1.zip;'
+cd /sdcard/Download
+curl -fLO https://github.com/draumaz/kdeconnectbidirectionalclipboard/releases/download/1/kdeconnectbidirectionalclipboard-v1.zip
+su -c 'magisk --install-module kdeconnectbidirectionalclipboard-v1.zip'
 ```
