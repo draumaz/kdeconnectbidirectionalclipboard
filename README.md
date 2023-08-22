@@ -5,3 +5,11 @@ A Magisk module that allows KDE Connect to automatically sync the Android clipbo
 ### These commands don't actually require root, but automation is the spice of life, and that does.
 
 - Thanks to [this XDA post](https://forum.xda-developers.com/t/mod-magisk-force-dark-boot.4366397/), without whose package structuring examples this could have never been
+
+### Install (adb shell)
+
+```
+su -c 'cd /sdcard/Download; \
+  curl -fLO https://github.com/draumaz/kdeconnectbidirectionalclipboard/releases/download/1/kdeconnectbidirectionalclipboard-v1.zip; \
+  magisk --install-module kdeconnectbidirectionalclipboard-v1.zip;'
+```
