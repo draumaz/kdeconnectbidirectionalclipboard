@@ -3,4 +3,4 @@ name=KDE Connect Bidirectional Clipboard
 version=1
 versionCode=1
 author=draumaz
-description=Allow KDE Connect to automatically sync the Android clipboard to desktop.
+description=Magisk module that enables full clipboard sync with KDE Connect
