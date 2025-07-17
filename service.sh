@@ -1,5 +1,7 @@
 #!/system/bin/sh
 
+sleep 20
+
 MODDIR="${0%/*}"
 MNAME="$(basename ${MODDIR})"
 XPKG="org.kde.kdeconnect_tp"
