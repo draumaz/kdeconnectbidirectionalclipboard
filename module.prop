@@ -3,4 +3,4 @@ name=KDE Connect Bidirectional Clipboard
 version=1.3
 versionCode=3
 author=draumaz
-description=(DEV) Magisk module that enables full clipboard sync with KDE Connect
+description=Magisk module that enables full clipboard sync with KDE Connect
